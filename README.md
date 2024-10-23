@@ -1,10 +1,14 @@
 # Steel Vengeance 2024
 
-<br>
+---
 
-This is the java and block backup code for steel vengeance.
+Welcome to the Steel Vengeance 2024 repository! 
 
-<br>
+This project contains the Java and block backup code for Steel Vengeance.
 
-> [!CAUTION]  
-> **Use of this code without crediting Steel Veangeance is not allowed under its [LICENSE](https://github.com/BMMS-Robotics/bmms-steelvengeance-2024/tree/main?tab=CC-BY-4.0-1-ov-file)**
+### Important Notice
+
+> [CAUTION!]  
+> Crediting Steel Vengeance is required for use of this code, as outlined in the [LICENSE](https://github.com/BMMS-Robotics/bmms-steelvengeance-2024/tree/main?tab=LICENSE).
+
+Thank you for your understanding!
