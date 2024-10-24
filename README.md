@@ -1,4 +1,4 @@
-# Steel Vengeance 2024 🤖
+# 🤖 Steel Vengeance 2024 
 Welcome to the Steel Vengeance 2024 repository!  
 This project contains the Java and block backup code for Steel Vengeance.
 <br>
