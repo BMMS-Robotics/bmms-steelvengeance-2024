@@ -1,4 +1,4 @@
-<h1 style="text-align:center;">Steel Veangeance</h1>
+<h1 align="center">Steel Veangeance</h1>
 
 
 Welcome to the Steel Vengeance 2024 repository! 
