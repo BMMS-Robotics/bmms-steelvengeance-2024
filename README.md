@@ -1,12 +1,9 @@
 <h1 align="center">Steel Veangeance</h1>
 
----
 
 Welcome to the Steel Vengeance 2024 repository! 
-
 This project contains the Java and block backup code for Steel Vengeance.
 
----
 
 <h2 align="center">Important Notice</h2>
 
