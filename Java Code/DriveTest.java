@@ -12,7 +12,6 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 
 public class DriveTest extends LinearOpMode {
 
-    // Declare OpMode members for each of the 4 motors.
     private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftFrontDrive = null;
     private DcMotor leftBackDrive = null;
@@ -22,8 +21,7 @@ public class DriveTest extends LinearOpMode {
     @Override
     public void runOpMode() {
 
-        // Initialize the hardware variables. Note that the strings used here must correspond
-        // to the names assigned during the robot configuration step on the DS or RC devices.
+
         leftFrontDrive  = hardwareMap.get(DcMotor.class, "MotorWhite");
         leftBackDrive  = hardwareMap.get(DcMotor.class, "MotorGrey");
         rightFrontDrive = hardwareMap.get(DcMotor.class, "MotorRed");
@@ -31,14 +29,12 @@ public class DriveTest extends LinearOpMode {
 
 
 
-        // Wait for the game to start (driver presses START)
         telemetry.addData("Status", "Initialized");
         telemetry.update();
 
         waitForStart();
         runtime.reset();
 
-        // run until the end of the match (driver presses STOP)
         while (opModeIsActive()) {
             leftBackDrive.setPower(-0.5);
             rightBackDrive.setPower(0.5);
