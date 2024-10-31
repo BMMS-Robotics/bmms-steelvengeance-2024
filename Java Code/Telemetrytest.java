@@ -28,10 +28,10 @@ public class Telemetrytest extends LinearOpMode {
         waitForStart();
 
         while (opModeIsActive()) { 
-                MotorPower = gamepad1.left_stick_y;
+                MotorPower = gamepad1.left_stick_y; // shows that MotorPower variable is set to gamepad1 left sticks vertical(y) position
                 motor.setPower(MotorPower);
                 Rotations = motor.getCurrentPosition();
-                telemetry.addData("Motor Rotation",String.valueOf(Rotations));
+                telemetry.addData("Motor Rotation",String.valueOf(Rotations)); // tells operator that Motor Rotation gets current position of the motor
                 telemetry.update();
 
             }
