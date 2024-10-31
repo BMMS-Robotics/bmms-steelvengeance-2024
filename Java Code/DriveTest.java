@@ -36,16 +36,18 @@ public class DriveTest extends LinearOpMode {
         runtime.reset();
 
         while (opModeIsActive()) {
-            leftBackDrive.setPower(-0.5);
+         // sets to half power forward some are negative because some motors are backwards
+            leftBackDrive.setPower(-0.5); 
             rightBackDrive.setPower(0.5);
             rightFrontDrive.setPower(-0.5);
             leftFrontDrive.setPower(-0.5);
-           // sleep(500);
-
-            //leftFrontDrive.setPower(0);
-            //leftBackDrive.setPower(0);
-            //rightFrontDrive.setPower(0);
-            //rightBackDrive.setPower(0);
+            
+            sleep(500);  // milliseconds 
+          // stops motors by resetting power
+            leftFrontDrive.setPower(0);
+            leftBackDrive.setPower(0);
+            rightFrontDrive.setPower(0);
+            rightBackDrive.setPower(0);
         }
     }
 }
